@@ -15,4 +15,31 @@
 
 .nav__link {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  /* span을 겹치기 위해선 position absolute 해줘야 하고, 부모의 position을 relative로 해야함*/
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__newthing {
+  width: 6px;
+  height: 6px;
+  display: flex;
+  position: absolute;
+  top: -15px;
+  right: -6px;
+  background-color: tomato;
+  border-radius: 3px;
 }
