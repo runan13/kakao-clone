@@ -28,6 +28,11 @@
   color: var(--gray-color);
 }
 
+.uset-component__subtitle i {
+  color: red;
+  opacity: 0.6;
+}
+
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
