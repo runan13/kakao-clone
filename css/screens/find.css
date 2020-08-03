@@ -16,4 +16,25 @@
 
 .find-icons__icon span {
   margin-top: 20px;
+  font-weight: 600;
+}
+
+.recommended-friends {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 20px 0;
+}
+
+.recommended-friends__title {
+  font-size: 17px;
+  color: var(--gray-color);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0px;
+  text-align: center;
+  color: var(--gray-color);
+  font-size: 19px;
 }

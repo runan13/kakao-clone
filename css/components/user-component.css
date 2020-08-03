@@ -25,7 +25,7 @@
 .uset-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--gray-color);
 }
 
 .user-component__avatar--xl {
