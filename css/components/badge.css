@@ -8,3 +8,11 @@
   align-items: center;
   border-radius: 13px;
 }
+
+.newthing {
+  width: 6px;
+  height: 6px;
+  display: flex;
+  background-color: tomato;
+  border-radius: 3px;
+}

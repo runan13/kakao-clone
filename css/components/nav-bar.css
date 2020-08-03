@@ -25,12 +25,7 @@
 }
 
 .nav__newthing {
-  width: 6px;
-  height: 6px;
-  display: flex;
   position: absolute;
   top: -15px;
   right: -6px;
-  background-color: tomato;
-  border-radius: 3px;
 }
