@@ -46,3 +46,12 @@
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
+
+.user-component__column:nth-child(2n) {
+  display: block;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
+}
